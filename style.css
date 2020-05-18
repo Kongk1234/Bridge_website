@@ -1,0 +1,33 @@
+.my-container {
+    overflow: hidden;
+}
+.my-container h1 {
+    position: relative;
+} 
+.my-container img {
+    top: 0;
+    height: 90%;
+    opacity: 0.5;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: -100;
+}
+#table3{
+    border: 1px solid black;
+    float: left;
+    margin-left: 13%;
+}
+
+#random{
+    float: left;
+    margin-top: 10%;
+}
+input
+{
+    height: 4%;
+    width: 180%;
+}

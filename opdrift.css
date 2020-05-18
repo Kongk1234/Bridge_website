@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    position: fixed;
+    background-image: url(./up.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    position: relative;
+    background-position: 10% 90%;
+  }
+  #table1{
+   border: 1px solid black;
+  }
+  th{
+    color:  black;
+  }
+  #test{
+    margin-top: 20%;
+  }

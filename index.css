@@ -1,0 +1,100 @@
+head {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navbar {
+    overflow: hidden;
+    height: 50px;
+    opacity: 0.5;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 31px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  body{
+    margin: 0;
+  }
+  video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url("//demosthenes.info/assets/images/polina.jpg") no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+  }
+  .stopfade {
+    opacity: 0;
+  }
+
+  .button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid orange;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    opacity: 0.5;
+  }
+  .button:hover {
+    background: orange;
+  }
+  .column {
+    float: left;
+    padding: 10px;
+    height: 150px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left, .right {
+    width: 32.17%;
+    opacity: 0.5;
+  }
+  
+  .middle {
+    width: 32.17%;
+    opacity: 0.5;
+  }
+  table{
+    border: 1px solid black;
+  }
+  #div1, #div2, #div3{
+    border: 1px solid black;
+  }
+  #div69{
+    margin-top: 25%;
+  }
+  #div420{
+    margin-top: 6%;
+  }

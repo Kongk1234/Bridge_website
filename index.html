@@ -1,0 +1,52 @@
+<html>
+  <meta charset = "UTF-8">
+    <header>
+        <title>
+            Bro opgave
+        </title>
+    </header>
+    <head>
+      <script src="navbar.js"></script>
+       <link rel="stylesheet" type="text/css" href="index.css">
+      </head>
+      <body>
+        <center>
+            <table>
+              <div class="row" id="div69">
+                <div class="column left " id="div1" style="background-color:#aaa;">
+                  <h2>Info</h2>
+                  <p id="p1">Her kan du læse lidt omkring broens historie <br> og få nogle mærkelige fakta omkring broen</p>
+                  <button onclick="window.location.href = 'info.html';">Læs mere</button>
+                </div>
+                <div class="column middle" id="div2" style="background-color:#aaa;">
+                  <h2>Kredsløb</h2>
+                  <p id="p">Her kan du regne ud hvor meget det koster i EL <br> at have broen, regne ohms lov ud på broen og meget mere</p>
+                  <button onclick="window.location.href = 'kredslob.html';">Læs mere</button>
+                </div>
+                <div class="column right" id="div3" style="background-color:#aaa;">
+                  <h2>Opdrift</h2>
+                  <p id= "p2">Her kan du regne opdriften og tyngdekraften ud på broen <br> og regne ud hvor meget der skal til før broen bryder sammen</p>
+                  <button onclick="window.location.href = 'opdrift.html';">Læs mere</button>
+                </div>
+              </div>  
+            </table>
+            <div  id='prova' style='display: none;'>
+              <script>
+                window.onload = function () {
+                    setTimeout(appeardiv,10000);
+                }
+                function appeardiv() {
+                    document.getElementById('prova').style.display= "block";
+                }
+              </script> 
+            <div class="box" id="div420">
+              <a class="button" href="info.html">Info omkring broen</a>
+            </div>
+            </div>
+            <video id="myVideo" loop autoplay="autoplay" height="50%" width="100%" muted>
+              <source src="./test 1.1 (1).mp4" type="video/mp4">     
+              Your browser does not support HTML5 video.
+            </video> 
+          </center>
+      </body>
+</html>
