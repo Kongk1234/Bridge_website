@@ -40,7 +40,7 @@ head {
   body{
     margin: 0;
     position: fixed;
-    background-image: url(./electrical-current-definition.png);
+    background-image: url(../includes/electrical-current-definition.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
